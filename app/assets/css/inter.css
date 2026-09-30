@@ -24,6 +24,14 @@ body,
          tracking-normal;
 }
 
+@utility inter-semibold-14 {
+    @apply font-inter
+         font-bold
+         text-[14px]
+         leading-normal
+         tracking-normal;
+}
+
 @utility inter-bold-10 {
     @apply font-inter
          font-extrabold

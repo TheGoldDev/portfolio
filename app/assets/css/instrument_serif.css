@@ -47,6 +47,14 @@ body,
          tracking-normal;
 }
 
+@utility serif-regular-64 {
+    @apply font-serif
+         font-normal
+         text-[64px]
+         leading-[130%]
+         tracking-normal;
+}
+
 @utility serif-regular-100 {
     @apply font-serif
          font-normal
