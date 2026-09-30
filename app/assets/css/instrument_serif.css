@@ -1,0 +1,79 @@
+@import '@/assets/css/font-variable.css';
+
+/* =========================
+   Font smoothing (critical for Mac rendering)
+   ========================= */
+
+html,
+body,
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+@theme {
+    --font-serif: 'Instrument Serif', serif;
+}
+
+@utility serif-regular-40 {
+    @apply font-serif
+         font-normal
+         text-[40px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility serif-regular-48 {
+    @apply font-serif
+         font-normal
+         text-[48px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility serif-regular-56-1 {
+    @apply font-serif
+         font-normal
+         text-[56px]
+         leading-normal
+         tracking-[-2px];
+}
+@utility serif-regular-56-2 {
+    @apply font-serif
+         font-normal
+         text-[56px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility serif-regular-100 {
+    @apply font-serif
+         font-normal
+         text-[100px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility serif-regular-120 {
+    @apply font-serif
+         font-normal
+         text-[120px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility serif-regular-140-1 {
+    @apply font-serif
+         font-normal
+         text-[140px]
+         leading-normal
+         tracking-[-2px];
+}
+@utility serif-regular-140-2 {
+    @apply font-serif
+         font-normal
+         text-[140px]
+         leading-normal
+         tracking-normal;
+}

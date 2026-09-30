@@ -1,0 +1,96 @@
+@import '@/assets/css/font-variable.css';
+
+/* =========================
+   Font smoothing (critical for Mac rendering)
+   ========================= */
+
+html,
+body,
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+@theme {
+    --font-inter: 'Inter', system, sans-serif;
+}
+
+@utility inter-semibold-12 {
+    @apply font-inter
+         font-semibold
+         text-[12px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility inter-bold-10 {
+    @apply font-inter
+         font-extrabold
+         text-[10px] 
+         leading-normal 
+         tracking-[1px];
+}
+@utility inter-bold-12 {
+    @apply font-inter
+         font-extrabold
+         text-[12px] 
+         leading-normal 
+         tracking-[2px];
+}
+@utility inter-bold-14 {
+    @apply font-inter
+         font-extrabold
+         text-[14px] 
+         leading-normal 
+         tracking-[-0.50px];
+}
+
+@utility inter-regular-10 {
+    @apply font-inter
+         font-normal 
+         text-[10px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility inter-regular-11 {
+    @apply font-inter
+         font-normal 
+         text-[11px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility inter-regular-14 {
+    @apply font-inter
+         font-normal 
+         text-[14px]
+         leading-[150%]
+         tracking-normal;
+}
+
+@utility inter-regular-15 {
+    @apply font-inter
+         font-normal 
+         text-[15px]
+         leading-normal
+         tracking-normal;
+}
+
+@utility inter-medium-13 {
+    @apply font-inter
+         font-medium 
+         text-[13px] 
+         leading-normal 
+         tracking-normal;
+}
+
+@utility inter-italic-13 {
+    @apply font-inter
+         font-normal     
+         text-[13px]
+         leading-normal 
+         italic
+         tracking-[1.8px];
+}
