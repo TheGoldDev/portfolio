@@ -16,6 +16,15 @@ body,
     --font-serif: 'Instrument Serif', serif;
 }
 
+@utility serif-regular-36 {
+    @apply font-serif
+         font-normal
+         text-[36px]
+         leading-[110%]
+         tracking-normal;
+}
+
+
 @utility serif-regular-40 {
     @apply font-serif
          font-normal

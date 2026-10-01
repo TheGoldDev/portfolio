@@ -26,7 +26,7 @@ body,
 
 @utility inter-semibold-14 {
     @apply font-inter
-         font-bold
+         font-medium
          text-[14px]
          leading-normal
          tracking-normal;
@@ -39,6 +39,15 @@ body,
          leading-normal 
          tracking-[1px];
 }
+
+@utility inter-bold-11 {
+    @apply font-inter
+         font-bold
+         text-[11px] 
+         leading-normal 
+         tracking-[1px];
+}
+
 @utility inter-bold-12 {
     @apply font-inter
          font-extrabold
